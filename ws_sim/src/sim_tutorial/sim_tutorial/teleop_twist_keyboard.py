@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+
+import sys
+import select
+import termios
+import tty
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+
+msg = """ 
+Control Your Robot!
+---------------------------
+Moving around:
+   w    
+ a s d
+   x    
+
+w/x : increase/decrease linear velocity
+a/d : increase/decrease angular velocity
+
+space key : stop the robot
+CTRL-C to quit
+"""
+
+# 속도 설정
+LIN_VEL_STEP_SIZE = 0.1
+ANG_VEL_STEP_SIZE = 0.1
+
+key_mapping = {
+    'w': (1, 0),
+    'x': (-1, 0),
+    'a': (0, 1),
+    'd': (0, -1),
+    's': (0, 0)  # 정지
+}
+
+def get_key():
+    tty.setraw(sys.stdin.fileno())
+    select.select([sys.stdin], [], [], 0)
+    key = sys.stdin.read(1)
+    termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
+    return key
+
+class TeleopTwistKeyboard(Node):
+    def __init__(self):
+        super().__init__('teleop_twist_keyboard')
+        self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
+        self.linear_velocity = 0.0
+        self.angular_velocity = 0.0
+
+    def run(self):
+        print(msg)
+        while True:
+            key = get_key()
+            if key == '\x03':  # CTRL+C
+                break
+            if key in key_mapping:
+                lin, ang = key_mapping[key]
+                if key == 's':
+                    self.linear_velocity = 0.0
+                    self.angular_velocity = 0.0
+                else:
+                    self.linear_velocity += lin * LIN_VEL_STEP_SIZE
+                    self.angular_velocity += ang * ANG_VEL_STEP_SIZE
+            
+            twist = Twist()
+            twist.linear.x = self.linear_velocity
+            twist.angular.z = self.angular_velocity
+            self.publisher.publish(twist)
+            print(f"Linear Velocity: {self.linear_velocity}, Angular Velocity: {self.angular_velocity}")
+
+def main():
+    global settings
+    settings = termios.tcgetattr(sys.stdin) if sys.stdin.isatty() else None
+
+    rclpy.init()
+    node = TeleopTwistKeyboard()
+    try:
+        node.run()
+    except Exception as e:
+        print(e)
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+        if settings:
+            termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
+
+if __name__ == '__main__':
+    main()
+

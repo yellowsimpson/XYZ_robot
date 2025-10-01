@@ -1,0 +1,50 @@
+[0.576s] Invoking command in '/home/robot/class_samples/ws_sim/build/sim_tutorial': PYTHONPATH=/home/robot/class_samples/ws_sim/build/sim_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/class_samples/ws_sim/install/sim_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/class_samples/ws_sim/build/sim_tutorial/build --no-deps symlink_data
+[0.799s] running develop
+[0.949s] running egg_info
+[0.949s] creating sim_tutorial.egg-info
+[0.949s] writing sim_tutorial.egg-info/PKG-INFO
+[0.949s] writing dependency_links to sim_tutorial.egg-info/dependency_links.txt
+[0.949s] writing entry points to sim_tutorial.egg-info/entry_points.txt
+[0.949s] writing requirements to sim_tutorial.egg-info/requires.txt
+[0.950s] writing top-level names to sim_tutorial.egg-info/top_level.txt
+[0.950s] writing manifest file 'sim_tutorial.egg-info/SOURCES.txt'
+[0.951s] reading manifest file 'sim_tutorial.egg-info/SOURCES.txt'
+[0.951s] writing manifest file 'sim_tutorial.egg-info/SOURCES.txt'
+[0.952s] running build_ext
+[0.952s] Creating /home/robot/class_samples/ws_sim/install/sim_tutorial/lib/python3.10/site-packages/sim-tutorial.egg-link (link to .)
+[0.953s] Installing teleop_twist_keyboard script to /home/robot/class_samples/ws_sim/install/sim_tutorial/lib/sim_tutorial
+[0.953s] 
+[0.953s] Installed /home/robot/class_samples/ws_sim/build/sim_tutorial
+[0.953s] running symlink_data
+[0.953s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index
+[0.953s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index/resource_index
+[0.953s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index/resource_index/packages
+[0.953s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/resource/sim_tutorial -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index/resource_index/packages
+[0.953s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/package.xml -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial
+[0.954s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/multi.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/teleop.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/robot_3.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/camera.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/robot_4.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/robot_5.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/lidar.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+[0.954s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/robot_3.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/gazebo.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/lidar.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/camera.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/macros.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/sim_lidar.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/lidar_3.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.954s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/lidar_4.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/robot_4.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/gazebo_3.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/robot_5.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/gazebo_4.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+[0.955s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/config
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/config/with_robot.world -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/config
+[0.955s] creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/worlds
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/worlds/with_robot.world -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/worlds
+[0.955s] symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/worlds/construction.world -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/worlds
+[0.979s] Invoked command in '/home/robot/class_samples/ws_sim/build/sim_tutorial' returned '0': PYTHONPATH=/home/robot/class_samples/ws_sim/build/sim_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/class_samples/ws_sim/install/sim_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/class_samples/ws_sim/build/sim_tutorial/build --no-deps symlink_data

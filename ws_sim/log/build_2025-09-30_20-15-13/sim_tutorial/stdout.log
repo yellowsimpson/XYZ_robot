@@ -1,0 +1,48 @@
+running develop
+running egg_info
+creating sim_tutorial.egg-info
+writing sim_tutorial.egg-info/PKG-INFO
+writing dependency_links to sim_tutorial.egg-info/dependency_links.txt
+writing entry points to sim_tutorial.egg-info/entry_points.txt
+writing requirements to sim_tutorial.egg-info/requires.txt
+writing top-level names to sim_tutorial.egg-info/top_level.txt
+writing manifest file 'sim_tutorial.egg-info/SOURCES.txt'
+reading manifest file 'sim_tutorial.egg-info/SOURCES.txt'
+writing manifest file 'sim_tutorial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/class_samples/ws_sim/install/sim_tutorial/lib/python3.10/site-packages/sim-tutorial.egg-link (link to .)
+Installing teleop_twist_keyboard script to /home/robot/class_samples/ws_sim/install/sim_tutorial/lib/sim_tutorial
+
+Installed /home/robot/class_samples/ws_sim/build/sim_tutorial
+running symlink_data
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index/resource_index
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index/resource_index/packages
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/resource/sim_tutorial -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/ament_index/resource_index/packages
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/package.xml -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/multi.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/teleop.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/robot_3.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/camera.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/robot_4.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/robot_5.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/launch/lidar.launch.py -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/launch
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/robot_3.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/gazebo.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/lidar.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/camera.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/macros.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/sim_lidar.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/lidar_3.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/lidar_4.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/robot_4.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/gazebo_3.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/robot_5.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/urdf/gazebo_4.xacro -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/urdf
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/config
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/config/with_robot.world -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/config
+creating /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/worlds
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/worlds/with_robot.world -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/worlds
+symbolically linking /home/robot/class_samples/ws_sim/build/sim_tutorial/worlds/construction.world -> /home/robot/class_samples/ws_sim/install/sim_tutorial/share/sim_tutorial/worlds

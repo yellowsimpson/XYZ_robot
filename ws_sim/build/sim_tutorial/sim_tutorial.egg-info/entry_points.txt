@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_twist_keyboard = sim_tutorial.teleop_twist_keyboard:main
+
