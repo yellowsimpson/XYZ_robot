@@ -1,0 +1,8 @@
+[0.010s] Invoking command in '/home/shim/test/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shim/test/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/shim/test/install/my_cpp_pkg
+[0.026s] [31mCMake Error at CMakeLists.txt:5 (ament_target_dependencies):
+[0.026s]   Unknown CMake command "ament_target_dependencies".
+[0.026s] 
+[0.026s] [0m
+[0.026s] -- Configuring incomplete, errors occurred!
+[0.026s] See also "/home/shim/test/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.028s] Invoked command in '/home/shim/test/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shim/test/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/shim/test/install/my_cpp_pkg

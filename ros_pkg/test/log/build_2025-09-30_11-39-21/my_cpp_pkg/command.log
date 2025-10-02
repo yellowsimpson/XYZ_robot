@@ -1,0 +1,1 @@
+Invoking command in '/home/shim/test/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shim/test/build/my_cpp_pkg -- -j8 -l8

@@ -1,0 +1,10 @@
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/uninstall.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/my_node.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/test.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/install.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/install/local.dir
+/home/shim/test/build/my_cpp_pkg/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+/home/shim/test/install/my_cpp_pkg/lib/my_cpp_pkg/my_node
+/home/shim/test/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+/home/shim/test/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+/home/shim/test/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+/home/shim/test/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

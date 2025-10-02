@@ -1,0 +1,40 @@
+[0.782s] Invoking command in '/home/shim/test/src/urdf_tutorial': PYTHONPATH=/home/shim/test/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/shim/test/build/urdf_tutorial/build install --record /home/shim/test/build/urdf_tutorial/install.log --single-version-externally-managed install_data
+[1.031s] running egg_info
+[1.032s] creating ../../build/urdf_tutorial/urdf_tutorial.egg-info
+[1.032s] writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[1.032s] writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[1.033s] writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[1.033s] writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[1.033s] writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[1.033s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.035s] reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.035s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.035s] running build
+[1.036s] running build_py
+[1.036s] creating /home/shim/test/build/urdf_tutorial/build
+[1.036s] creating /home/shim/test/build/urdf_tutorial/build/lib
+[1.036s] creating /home/shim/test/build/urdf_tutorial/build/lib/urdf_tutorial
+[1.036s] copying urdf_tutorial/__init__.py -> /home/shim/test/build/urdf_tutorial/build/lib/urdf_tutorial
+[1.036s] running install
+[1.036s] running install_lib
+[1.037s] creating /home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[1.037s] copying /home/shim/test/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[1.037s] byte-compiling /home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.038s] running install_data
+[1.038s] creating /home/shim/test/install/urdf_tutorial/share/ament_index
+[1.038s] creating /home/shim/test/install/urdf_tutorial/share/ament_index/resource_index
+[1.038s] creating /home/shim/test/install/urdf_tutorial/share/ament_index/resource_index/packages
+[1.038s] copying resource/urdf_tutorial -> /home/shim/test/install/urdf_tutorial/share/ament_index/resource_index/packages
+[1.038s] copying package.xml -> /home/shim/test/install/urdf_tutorial/share/urdf_tutorial
+[1.039s] creating /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.039s] copying launch/robot_1.launch.py -> /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.039s] creating /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.039s] creating /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/rviz
+[1.039s] creating /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/meshes
+[1.039s] creating /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/meshes/collision
+[1.039s] creating /home/shim/test/install/urdf_tutorial/share/urdf_tutorial/meshes/visual
+[1.039s] running install_egg_info
+[1.041s] Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+[1.042s] running install_scripts
+[1.061s] writing list of installed files to '/home/shim/test/build/urdf_tutorial/install.log'
+[1.083s] Invoked command in '/home/shim/test/src/urdf_tutorial' returned '0': PYTHONPATH=/home/shim/test/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/shim/test/build/urdf_tutorial/build install --record /home/shim/test/build/urdf_tutorial/install.log --single-version-externally-managed install_data

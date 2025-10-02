@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/shim/test/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shim/test/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/shim/test/install/my_cpp_pkg
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] [31mCMake Error at CMakeLists.txt:5 (ament_target_dependencies):
+[0.303s]   Unknown CMake command "ament_target_dependencies".
+[0.303s] 
+[0.303s] [0m
+[0.303s] -- Configuring incomplete, errors occurred!
+[0.303s] See also "/home/shim/test/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.306s] Invoked command in '/home/shim/test/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shim/test/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/shim/test/install/my_cpp_pkg

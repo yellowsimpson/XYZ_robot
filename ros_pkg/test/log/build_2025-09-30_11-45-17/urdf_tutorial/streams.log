@@ -1,0 +1,20 @@
+[0.671s] Invoking command in '/home/shim/test/src/urdf_tutorial': PYTHONPATH=/home/shim/test/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/shim/test/build/urdf_tutorial/build install --record /home/shim/test/build/urdf_tutorial/install.log --single-version-externally-managed install_data
+[0.919s] running egg_info
+[0.919s] writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[0.920s] writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[0.920s] writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[0.920s] writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[0.920s] writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[0.923s] reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[0.924s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[0.924s] running build
+[0.924s] running build_py
+[0.924s] running install
+[0.925s] running install_lib
+[0.926s] running install_data
+[0.926s] running install_egg_info
+[0.928s] removing '/home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.928s] Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+[0.929s] running install_scripts
+[0.950s] writing list of installed files to '/home/shim/test/build/urdf_tutorial/install.log'
+[0.973s] Invoked command in '/home/shim/test/src/urdf_tutorial' returned '0': PYTHONPATH=/home/shim/test/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shim/test/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/shim/test/build/urdf_tutorial/build install --record /home/shim/test/build/urdf_tutorial/install.log --single-version-externally-managed install_data
