@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<robot name="two_boxes" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- 재료 속성 정의 -->
+  <xacro:property name="base_color" value="0.7 0.7 0.7 1" />
+  <xacro:property name="top_color" value="0.3 0.6 0.8 1" />
+  <xacro:property name="base_mass" value="1.0" />
+  <xacro:property name="top_mass" value="0.5" />
+
+  <!-- 기본 박스 크기 -->
+  <xacro:property name="base_x" value="0.5" />
+  <xacro:property name="base_y" value="0.5" />
+  <xacro:property name="base_z" value="0.2" />
+
+  <!-- 상단 박스 크기 -->
+  <xacro:property name="top_x" value="0.3" />
+  <xacro:property name="top_y" value="0.3" />
+  <xacro:property name="top_z" value="0.15" />
+
+  <!-- 관성 매크로 -->
+  <xacro:macro name="box_inertia" params="mass x y z">
+    <inertial>
+      <mass value="${mass}" />
+      <inertia 
+        ixx="${mass * (y*y + z*z) / 12}" 
+        ixy="0" 
+        ixz="0" 
+        iyy="${mass * (x*x + z*z) / 12}" 
+        iyz="0" 
+        izz="${mass * (x*x + y*y) / 12}" />
+    </inertial>
+  </xacro:macro>
+
+  <!-- 기본 링크 (베이스 박스) -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${base_x} ${base_y} ${base_z}" />
+      </geometry>
+      <material name="base_material">
+        <color rgba="${base_color}" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${base_x} ${base_y} ${base_z}" />
+      </geometry>
+    </collision>
+    <xacro:box_inertia mass="${base_mass}" x="${base_x}" y="${base_y}" z="${base_z}" />
+  </link>
+
+  <!-- 상단 박스 링크 -->
+  <link name="top_box">
+    <visual>
+      <geometry>
+        <box size="${top_x} ${top_y} ${top_z}" />
+      </geometry>
+      <material name="top_material">
+        <color rgba="${top_color}" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${top_x} ${top_y} ${top_z}" />
+      </geometry>
+    </collision>
+    <xacro:box_inertia mass="${top_mass}" x="${top_x}" y="${top_y}" z="${top_z}" />
+  </link>
+
+  <!-- 기본 박스와 상단 박스를 연결하는 조인트 -->
+  <joint name="base_to_top" type="fixed">
+    <parent link="base_link" />
+    <child link="top_box" />
+    <origin xyz="0 0 ${base_z/2 + top_z/2}" rpy="0 0 0" />
+  </joint>
+
+  <!-- 가제보용 재질 설정 -->
+  <gazebo reference="base_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="top_box">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+</robot>
