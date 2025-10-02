@@ -1,0 +1,29 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+
+# nc: 1
+# names: ['squirrel']
+
+# roboflow:
+#   workspace: test-pxiuh
+#   project: xyz_test-xg68f
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/test-pxiuh/xyz_test-xg68f/dataset/1
+
+  # data.yaml
+path: /Users/simseunghwan/Desktop/xyz        # <-- 데이터 루트(당신 PC 경로로 수정)
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ["squirrel"]
+
+roboflow:
+  workspace: test-pxiuh
+  project: xyz_test-xg68f
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-pxiuh/xyz_test-xg68f/dataset/1
